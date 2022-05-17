@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/UI/Table/Board.uss?fileID=7433441132597879392&amp;guid=1bf73471f53c4b44cb4dd02a14c55f12&amp;type=3#Board" />
+    <ui:VisualElement name="Board" class="Board" style="background-image: url(&apos;project://database/Assets/Textures/Wooden-Board-Texture.jpg?fileID=2800000&amp;guid=5be9bef19228be24aa9508beb7001054&amp;type=3#Wooden-Board-Texture&apos;); width: 100%; height: 100%; -unity-background-scale-mode: stretch-to-fill;">
+        <ui:VisualElement name="Slots" class="slotsContainer" style="flex-wrap: nowrap;">
+            <ui:VisualElement name="slot1" class="slot" />
+            <ui:VisualElement name="slot2" class="slot" />
+            <ui:VisualElement name="slot3" class="slot" />
+            <ui:VisualElement name="slot4" class="slot" />
+            <ui:VisualElement name="Card" class="Card" style="background-image: url(&apos;project://database/Assets/Textures/potiNuage.png?fileID=21300000&amp;guid=87ad0f99e07c2594c90eea9362305732&amp;type=3#potiNuage&apos;); flex-wrap: nowrap; position: absolute; top: 130px; left: 55px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
