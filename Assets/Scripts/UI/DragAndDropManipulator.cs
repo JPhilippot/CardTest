@@ -13,6 +13,7 @@ public class DragAndDropManipulator : PointerManipulator
 
     protected override void RegisterCallbacksOnTarget()
     {
+        Debug.Log("registering oui ");
         target.RegisterCallback<PointerDownEvent>(PointerDownHandler);
         target.RegisterCallback<PointerMoveEvent>(PointerMoveHandler);
         target.RegisterCallback<PointerUpEvent>(PointerUpHandler);
@@ -21,6 +22,7 @@ public class DragAndDropManipulator : PointerManipulator
 
     protected override void UnregisterCallbacksFromTarget()
     {
+        Debug.Log("unregistering non ");
         target.UnregisterCallback<PointerDownEvent>(PointerDownHandler);
         target.UnregisterCallback<PointerMoveEvent>(PointerMoveHandler);
         target.UnregisterCallback<PointerUpEvent>(PointerUpHandler);
@@ -57,6 +59,7 @@ public class DragAndDropManipulator : PointerManipulator
 
     private void PointerUpHandler(PointerUpEvent evt)
     {
+        Debug.Log("Up");
         if (enabled && target.HasPointerCapture(evt.pointerId))
         {
             target.ReleasePointer(evt.pointerId);
@@ -65,6 +68,7 @@ public class DragAndDropManipulator : PointerManipulator
 
     private void PointerCaptureOutHandler(PointerCaptureOutEvent evt)
     {
+        Debug.Log("Out");
         if (enabled)
         {
             VisualElement slotsContainer = root.Q<VisualElement>("Slots");

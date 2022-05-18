@@ -6,7 +6,8 @@
             <ui:VisualElement name="slot2" class="slot" />
             <ui:VisualElement name="slot3" class="slot" />
             <ui:VisualElement name="slot4" class="slot" />
-            <ui:VisualElement name="Card" class="Card" style="background-image: url(&apos;project://database/Assets/Textures/potiNuage.png?fileID=21300000&amp;guid=87ad0f99e07c2594c90eea9362305732&amp;type=3#potiNuage&apos;); flex-wrap: nowrap; position: absolute; top: 130px; left: 55px;" />
+            <ui:VisualElement name="Card1" class="Card" style="background-image: url(&apos;project://database/Assets/Textures/potiNuage.png?fileID=21300000&amp;guid=87ad0f99e07c2594c90eea9362305732&amp;type=3#potiNuage&apos;); flex-wrap: nowrap; position: absolute; top: 130px; left: 55px;" />
+            <ui:VisualElement name="Card2" class="Card" style="position: absolute; background-color: rgb(32, 32, 32); background-image: url(&apos;project://database/Assets/Textures/soleilTournesol.png?fileID=2800000&amp;guid=589a77d06a3b2d144a368759751edea9&amp;type=3#soleilTournesol&apos;); top: 130px; left: 424px; transform-origin: center;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
