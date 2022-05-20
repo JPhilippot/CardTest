@@ -1,0 +1,73 @@
+.Title {
+    width: auto;
+    height: auto;
+    -unity-font: url('project://database/Assets/Virtualis/Interface/Fonts/Poppins/Poppins-SemiBold.ttf?fileID=12800000&guid=baba976738fa40944b189918f1d54e7a&type=3#Poppins-SemiBold');
+    font-size: initial;
+}
+
+.Text {
+    -unity-font: url('project://database/Assets/Virtualis/Interface/Fonts/Roboto/Roboto-Regular.ttf?fileID=12800000&guid=ad1b02bbff6be084fbd49ccb9556b6d3&type=3#Roboto-Regular');
+    font-size: initial;
+}
+
+.Card {
+    width: 95%;
+    height: 95%;
+}
+
+.Draggable {
+}
+
+.Draggable:hover {
+    border-left-color: rgb(101, 229, 253);
+    border-right-color: rgb(101, 229, 253);
+    border-top-color: rgb(101, 229, 253);
+    border-bottom-color: rgb(101, 229, 253);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.slot {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card:hover {
+    width: 100%;
+    height: 100%;
+}
+
+.AddMovementButton {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-shrink: initial;
+    flex-grow: 1;
+    background-color: rgba(255, 255, 255, 255);
+    color: rgba(0, 0, 0, 255);
+    -unity-text-align: upper-center;
+    font-size: 9px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
